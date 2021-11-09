@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name ='createAccForm'>
+        <input type= "text" name= "username" placeholder="Enter user name">
+        <input type= "text" name="age" placeholder="Enter user age">
+        <select name = "accType" id="accType">
+            <option value="current">Current Account</option>
+            <option value="savings">Savings Account</option>
+        </select>
+        <input type= "text" name = "balance" placeholder="Enter Amount">
+        <input type= "file" name = "avatar" id = "avatar">
+        
+        <div class="action-bar">
+            <button type ="reset">Reset</button>
+            <button type ="submit">Submit</button>
+        </div>
+    </form>
+    <div id="card-list"></div>
+    
+    <!-- Script below -->
+    <script src= "./practice.js"></script>
+</body>
+</html>
